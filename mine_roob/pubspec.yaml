@@ -9,6 +9,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  gif: ^2.3.0
 
 dev_dependencies:
   flutter_test:
@@ -16,3 +17,44 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/gifs/
+fonts:
+  - family: arial
+    fonts:
+      - asset: assets/fonts/ARLRDBD.TTF
+  - family: BNazanin
+    fonts:
+      - asset: assets/fonts/BNazanin.TTF
+      - asset: assets/fonts/BNaznnBd.TTF
+  - family: BTitr
+    fonts:
+      - asset: assets/fonts/BTitrBD.TTF
+  - family: coopbl
+    fonts:
+      - asset: assets/fonts/COOPBL.TTF
+  - family: b_nazanin
+    fonts:
+      - asset: assets/fonts/FORTE.TTF
+  - family: creamPuff
+    fonts:
+      - asset: assets/fonts/CreamPuff.TTF
+  - family: arl
+    fonts:
+      - asset: assets/fonts/ARLRDBD.TTF
+  - family: forte
+    fonts:
+      - asset: assets/fonts/FORTE.TTF
+  - family: iranSans
+    fonts:
+      - asset: assets/fonts/iransans.ttf
+  - family: bKoodak
+    fonts:
+      - asset: assets/fonts/BKoodkBd.ttf
+  - family: iranNastaligh1
+    fonts:
+      - asset: assets/fonts/fontpack(292).ttf
+  # - family: iranNastaligh2
+  #   fonts:
+  #     - asset: assets/fonts/fontpack(285).ttf
